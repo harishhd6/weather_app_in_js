@@ -1,0 +1,116 @@
+.card{
+    background: linear-gradient(to bottom,#f68dcc, #e2991a);
+    width: 90%;
+    max-width: 470px;
+    color: floralwhite;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: space-between;
+}
+
+.search input{
+border-radius: 30px;
+padding: 10px 25px;
+margin-right: 10px;
+height: 50px;
+font-size: 18px;
+flex: 1;
+outline: 0;
+border: 0;
+background: #ffffff;
+
+}
+
+.search button{
+width: 50px;
+height: 50px;
+background: #ffffff;
+border: 0;
+outline: 0;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.search button img{
+    width: 26px;
+}
+
+.weather-container{
+margin: 20px;
+display: none;
+}
+.weather-icon
+{
+    width: 120px;
+    height: 120px;
+}
+
+.temperature{
+    display: flex;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+.thermometer{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity-container{
+    display: flex;
+}
+
+.humidity-container img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.humidity-content{
+    text-align: left;
+}
+
+.humidity-content h2{
+    margin-top: -10px;
+} 
+
+.windspeed-container{
+    display: flex;
+}
+
+.windspeed-container img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.windspeed-content{
+    text-align: left;
+}
+
+.windspeed-content h2{
+    margin-top: -10px;
+} 
+
+.error-container{
+    display: none;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 100;
+}

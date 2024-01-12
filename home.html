@@ -1,0 +1,47 @@
+<!DOCUMENT html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Weather Application</title>
+    </head>
+    <body>
+        <div class="card">
+            <div class="search">
+                <input type="text" id="searchCity" placeholder="Enter the city">
+                <button onclick="findWeatherReport()"><img src="images/search_icon.png"></button>
+            </div>
+            <div class="weather-container">
+                <img src="images/weather_icons/sun.png" class="weather-icon">
+                <div class="temperature">
+                    <div>
+                        <h1 class="degree">22°C</h1>
+                        <h1 class="city">Chennai</h1>
+                    </div>
+                    <img src="images/thermometer.png" class="thermometer">
+                </div>
+                <div class="details">
+                    <div class="humidity-container">
+                        <img src="images/humidity.png">
+                        <div class="humidity-content">
+                            <h1 class="humidity-value">50%</h1>
+                            <h2>Humidity</h2>
+                        </div>
+                    </div>
+                    <div class="windspeed-container">
+                        <img src="images/wind.png">
+                        <div class="windspeed-content">
+                            <h1 class="windspeed-value">50 km/pr</h1>
+                            <h2>Wind Speed</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="error-container">
+                <h1>City not Found !!! </h1>
+            </div>
+        </div>
+        <script src="weatherApp.js">
+        </script>
+    </body>
+</html>
